@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../stylesheets/reset.css">
+	<!--Bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<!--Jquery css -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--my stylesheet -->
+	<link rel="stylesheet" href="../css/style1.css">
+	<!--font awesome css -->
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--title image-->
+	<link rel="icon" href="../images/logo.jpg" />
+	<title>TAMILNADU TOURISM</title>
+</head>
+
+
+<body>
+	<div class="container-fluid" ><!--start of main container -->
+		<header class="navbar navbar-default" id="sale">
+			<div>	
+				<h2>TAMILNADU TOURISM</h2>
+				<!--button for responsiveness Appears only when shrinked to mobile view -->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button" id="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<!--Total content of navigation bars -->
+				<!--Collapses into button mentioned above -->
+				<div class="navbar-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav" id="fixit">
+						<li >
+							<a href="tour.html"><span class="glyphicon glyphicon-home"> HOME</span></a>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">VISION AND MISSION</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">OUR MANAGEMENT</a>
+								</li>
+
+								<li class="divider"></li>
+								<li class="dropdown-header">Cultural Ethos</li>
+								<li>
+									<a href="#">ARTEFACTS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">DANCE MANIFESTATIONS</a>
+								</li>
+
+							</ul>
+						</li>
+
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">ONLINE HOTEL BOOKING<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">ACCOMODATION</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">SPECIAL PACKAGE</a>
+								</li>
+
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#">TOUR PACKAGES</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">BOATING UNITS</a>
+								</li>
+							</ul>
+						</li>
+
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">ONLINE TOUR BOOKING<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">WEEKLY TOURS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">DAILY TOURS</a>
+								</li>
+
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#">INTERSTATE TOURS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">LIGHT AND SHOW TOURS</a>
+								</li>
+
+							</ul>
+						</li>
+
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">BOOK TOUR<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">CONTACT AGENTS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">RESERVATIONS</a>
+								</li>
+
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#">DOWNLOAD BROUCHER</a>
+								</li>
+							</ul>
+						</li>
+
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACT US<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">CONTACT AGENTS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">CORPORATION MANAGER</a>
+								</li>
+
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#">COMMISIONERATE OF TOURISM</a>
+								</li>
+							</ul>
+						</li>
+						<li >
+							<form class="navbar-form navbar-left" role="search">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Search">
+								</div>
+								<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+							</form>
+						</li>
+						<li >
+							<a href="#myModal" role="button"  data-toggle="modal" id="sign">SIGN IN</a>
+						</li>
+						
+
+					</ul>
+				</div>
+			</div><!--Navigation bar terminates -->
+		</header><!--Termination of page header -->		
+		<!--Some tabulations to show tour info -->
+		<div class="container-fluid" id="show">
+			<div class="row container">
+				<div class="col-lg-4 col-sm-6">
+					<div class="list-group">
+						<a href="#" class="list-group-item" id="tab1">
+							OOTY AND COIMBATORE
+						</a>
+						<a href="#" class="list-group-item">TOUR ID ----- OTCO01</a>
+						<a href="#" class="list-group-item">TOTAL DAYS--- 3</a>
+						<a href="#" class="list-group-item">STARTS FROM-- COIMBATORE</a>
+						<a href="#" class="list-group-item">START TIME--- 6 AM SATURDAY</a>
+						<a href="#" class="list-group-item">END TIME----- 8 PM MONDAY</a>
+						<button class="btn btn-danger">KNOW MORE</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="list-group">
+						<a href="#" class="list-group-item" id="tab2">
+							TANJORE AND KUMBAKONAM
+						</a>
+						<a href="#" class="list-group-item">TOUR ID ----- TAKU02</a>
+						<a href="#" class="list-group-item">TOTAL DAYS--- 3</a>
+						<a href="#" class="list-group-item">STARTS FROM-- TRICHY</a>
+						<a href="#" class="list-group-item">START TIME--- 6 AM SATURDAY</a>
+						<a href="#" class="list-group-item">END TIME----- 8 PM MONDAY</a>
+						<button class="btn btn-primary">KNOW MORE</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="list-group">
+						<a href="#" class="list-group-item" id="tab3">
+							KANYAKUMARI AND TENKASI
+						</a>
+						<a href="#" class="list-group-item">TOUR ID ----- KATE03</a>
+						<a href="#" class="list-group-item">TOTAL DAYS--- 3</a>
+						<a href="#" class="list-group-item">STARTS FROM-- MADURAI</a>
+						<a href="#" class="list-group-item">START TIME--- 6 AM SATURDAY</a>
+						<a href="#" class="list-group-item">END TIME----- 8 PM MONDAY</a>
+						<button class="btn btn-warning">KNOW MORE</button>
+					</div>
+				</div>
+			</div>		
+
+
+			<div class="row container">
+				<div class="col-lg-4 col-sm-6">
+					<div class="list-group">
+						<a href="#" class="list-group-item" id="tab1">
+							MALLALAPURAM AND VANDALUR
+						</a>
+						<a href="#" class="list-group-item">TOUR ID ----- MAVA04</a>
+						<a href="#" class="list-group-item">TOTAL DAYS--- 3</a>
+						<a href="#" class="list-group-item">STARTS FROM-- CHENNAI</a>
+						<a href="#" class="list-group-item">START TIME--- 6 AM SATURDAY</a>
+						<a href="#" class="list-group-item">END TIME----- 8 PM MONDAY</a>
+						<button class="btn btn-danger">KNOW MORE</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="list-group">
+						<a href="#" class="list-group-item" id="tab2">
+							HOGENAKKAL AND SALEM
+						</a>
+						<a href="#" class="list-group-item">TOUR ID ----- HOSA05</a>
+						<a href="#" class="list-group-item">TOTAL DAYS--- 3</a>
+						<a href="#" class="list-group-item">STARTS FROM-- SALEM</a>
+						<a href="#" class="list-group-item">START TIME--- 6 AM SATURDAY</a>
+						<a href="#" class="list-group-item">END TIME----- 8 PM MONDAY</a>
+						<button class="btn btn-primary">KNOW MORE</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="list-group">
+						<a href="#" class="list-group-item" id="tab3">
+							ARUPADAI VEEDU
+						</a>
+						<a href="#" class="list-group-item">TOUR ID ----- ARUP06</a>
+						<a href="#" class="list-group-item">TOTAL DAYS--- 3</a>
+						<a href="#" class="list-group-item">STARTS FROM-- CHENNAI</a>
+						<a href="#" class="list-group-item">START TIME--- 6 AM SATURDAY</a>
+						<a href="#" class="list-group-item">END TIME----- 8 PM MONDAY</a>
+						<button class="btn btn-warning">KNOW MORE</button>
+					</div>
+				</div>
+			</div>
+
+
+			<h4 align="center"><button class="btn btn-primary">Wanna book for a weekly tour???</button></h4>
+
+			<!--Form for user to fill in the tour booking -->
+			<form class="form-horizontal container" id="fill">
+				<div class="form-group">
+					<label class="col-lg-4 control-label" for="tour">TOUR ID</label>
+					<div class="col-lg-8">
+						<input class="form-control" id="tour" type="text">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-lg-4 control-label" for="start">START DESTINATION</label>
+					<div class="col-lg-8">
+						<input class="form-control" id="start" type="email">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-lg-4 control-label" for="room">ROOM TYPE</label>
+					<div class="col-lg-8">
+						<input class="form-control" id="room" type="password">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label class="col-lg-4 control-label" for="passen">NO. OF PASSENGERS</label>
+					<div class="col-lg-8">
+						<input class="form-control" id="passen" type="number">
+					</div>
+				</div>
+
+				<button class="btn btn-success pull-right">BOOK NOW BUDDY</button>
+			</form>
+		</div>
+
+		<!--To get a modal window. Linked with sign in button on the nav bar -->
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">SIGN IN</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="username">USER NAME</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="username" type="text">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="password">PASSWORD</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="password" type="password">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<a href="#myModal2" class="pull-left" data-toggle="modal">NEW USER? SIGN UP</a>
+						<button class="btn btn-primary" type="button">SIGN IN</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade" id="myModal2"><!--Connected with above modal -->
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">REGISTER</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="username1">USER NAME</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="username1" type="text">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="email1">EMAIL-ID</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="email1" type="email">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="password1">PASSWORD</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="password1" type="password">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="pass1">RE-ENTER PASSWORD</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="pass1" type="password">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-primary" type="button">REGISTER</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--All modal terminates here -->
+
+		<!--Page footer -->	
+		<footer>
+			<div class="row">
+				<div class="col-lg-3">
+					<h4>Contact us</h4>
+					<p>Tamil Nadu Tourism Complex,</p>
+					<p>No 2, Wallajah Road,</p>
+					<p>Chennai</p>
+					<p>Phone:044-25333850 to 54</p>
+					<p>Fax: 044-25333385, 25333567</p>
+					<p>E-mail:ttdc@vsnl.com</p>
+					<button class="btn btn-primary"><span class="glyphicon glyphicon-thumbs-up"> FEED BACK</span></button>
+				</div>
+
+				<div class="col-lg-3">
+					<h4>Important Links</h4>
+					<p>TOURISM AND CULTURE GO'S</p>
+					<p>STATE INSTITUTE OF HOTEL MANAGEMENT &copy; CATERING TECHNOLOGY,TIRUCHIRAPPALLI</p>
+					<p>INSTITUTE OF HOTEL MANAGEMENT CATERING TECHNOLOGY &copy; APPLIED NUTRITION, CHENNAI</p>
+				</div>
+
+				<div class="col-lg-3">
+					<h4>Tourism Policies</h4>
+					<p>RIGHT TO INFORMATION ACT </p>
+					<p>TRADE MARK COPYRIGHT</p>
+					<p>POLICY NOTE 2016-2017 - ENGLISH</p>
+					<p>POLICY NOTE 2016-2017 - TAMIL</p>
+					<button class="btn btn-danger">TTDC OFFICIALS LOGIN</button>
+				</div>
+
+				<div class="col-lg-3" id="awe">
+					<h4>Follow us at </h4>
+					<p><a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></p>
+					<p><a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></p>
+					<p><a href="#"><i class="fa fa-whatsapp fa-3x" aria-hidden="true"></i></a></p>
+					<p><a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></p>
+				</div>
+			</div>
+			<p>copyright &copy;. All rights reserved.Developed by Yogeendran.</p>
+		</footer>
+		<!--Termination of Page footer -->	
+
+	</div> <!-- end of main container-->
+</body>
+</html>

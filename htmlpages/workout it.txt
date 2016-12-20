@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../stylesheets/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/style1.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="../images/logo.jpg" />
+	<title>TAMILNADU TOURISM</title>
+</head>
+
+
+<body>
+		<div class="container-fluid" >
+			<header class="navbar navbar-default" id="sale">
+			<div>	
+				<h2 class="pull-left">TAMILNADU TOURISM</h2>
+					<button class="navbar-toggle pull-right" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button" id="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+			
+				
+				<ul class="nav navbar-nav pull-right" id="topicon">
+					<li >
+						<form class="navbar-form navbar-left" role="search">
+							  <div class="form-group">
+							    <input type="text" class="form-control" placeholder="Search a place" >
+							  </div>
+							  <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form>
+					</li>
+					<li >
+						<a href="#myModal" role="button"  data-toggle="modal" id="sign">SIGN IN</a>
+					</li>
+				</ul>
+				<div class="navbar-collapse collapse navbar-responsive-collapse">
+				<ul class="nav navbar-nav" id="fixit">
+					<li >
+						<a href="#"><span class="glyphicon glyphicon-home"> HOME</span></a>
+					</li>
+					
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">VISION AND MISSION</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">OUR MANAGEMENT</a>
+								</li>
+
+								<li class="divider"></li>
+								<li class="dropdown-header">Cultural Ethos</li>
+								<li>
+									<a href="#">ARTEFACTS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">DANCE MANIFESTATIONS</a>
+								</li>
+
+							</ul>
+					</li>
+
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">DEPARTMENT OF TOURISM<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">ONLINE SCENARIO</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">OVER VIEW</a>
+								</li>
+							</ul>
+					</li>
+					
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">ONLINE HOTEL BOOKING<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">ACCOMODATION</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">SPECIAL PACKAGE</a>
+								</li>
+
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#">TOUR PACKAGES</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">BOATING UNITS</a>
+								</li>
+							</ul>
+					</li>
+					
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">ONLINE TOUR BOOKING<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="weektour.html">WEEKLY TOURS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">DAILY TOURS</a>
+								</li>
+
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#">INTERSTATE TOURS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">LIGHT AND SHOW TOURS</a>
+								</li>
+
+							</ul>
+					</li>
+					
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">BOOK TOUR<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">CONTACT AGENTS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">RESERVATIONS</a>
+								</li>
+
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#">DOWNLOAD BROUCHER</a>
+								</li>
+							</ul>
+					</li>
+					
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACT US<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">CONTACT AGENTS</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">CORPORATION MANAGER</a>
+								</li>
+
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#">COMMISIONERATE OF TOURISM</a>
+								</li>
+							</ul>
+					</li>
+
+				</ul>
+				
+			</div>
+			</div>
+		</header>
+	
+		<div class="carousel slide" id="myCarousel">
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">					
+				</div>
+				<div class="item" id="slide2">					
+				</div>
+				<div class="item" id="slide3">					
+				</div>
+				<div class="item" id="slide4">	
+				</div>
+				<div class="item" id="slide5">					
+				</div>
+				<div class="item" id="slide6">					
+				</div>
+				<div class="item" id="slide7">					
+				</div>
+				<div class="item" id="slide8">					
+				</div>
+				<div class="item" id="slide9">					
+				</div>
+				</div>
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div>
+			
+		<div class="row" id="moreinfo">
+			<div class="col-sm-12">
+					<h3> WANNA KNOW MORE???</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+					<li class="active"><a href="#table1" data-toggle="tab">Info and Pics</a></li>
+					 
+					<li><a href="#table2" data-toggle="tab">Visit and book</a></li>
+					</ul>
+					<div class="tab-content">
+					<div class="tab-pane active" id="table1">
+							<div class="row container">
+								<div class="col-lg-3 col-sm-6">
+								<h4>EXPLORE DESTINATIONS</h4>
+								<img src="../images/chennai.jpg" alt="chennai" class="img-responsive">		
+								</div>
+								<div class="col-lg-3 col-sm-6">
+								<h4>EXPLORE SPECIALITIES</h4>
+								<img src="../images/special.jpg" alt="special" class="img-responsive">		
+								</div>
+								<div class="col-lg-3 col-sm-6">
+								<h4>ARCHITECTURE</h4>
+								<img src="../images/architect.jpg" alt="architect" class="img-responsive">		
+								</div>
+								<div class="col-lg-3 col-sm-6">
+								<h4>HILL STATIONS</h4>
+								<img src="../images/hill.jpg" alt="hill stations" class="img-responsive">		
+								</div>
+							</div>		
+
+							<div class="row container">
+								<div class="col-lg-3 col-sm-6">
+								<h4>WILD LIFE</h4>
+								<img src="../images/wildlife.jpg" alt="wildlife" class="img-responsive">		
+								</div>
+								<div class="col-lg-3 col-sm-6">
+								<h4>MEDICINES</h4>
+								<img src="../images/medicines.jpg" alt="medicine" class="img-responsive">		
+								</div>
+								<div class="col-lg-3 col-sm-6">
+								<h4>FORESTS</h4>
+								<img src="../images/forest.jpeg" alt="forest" class="img-responsive">		
+								</div>
+								<div class="col-lg-3 col-sm-6">
+								<h4>RIVERS AND FALLS</h4>
+								<img src="../images/river.jpg" alt="river" class="img-responsive">		
+								</div>
+							</div>		
+
+							<div class="row container">
+								<div class="col-lg-3 col-sm-6">
+								<h4>CUISINE</h4>
+								<img src="../images/cuisine.jpg" alt="wildlife" class="img-responsive">		
+								</div>
+								<div class="col-lg-3 col-sm-6">
+								<h4>MEMBERSHIP</h4>
+								<img src="../images/member1.jpg" alt="me" class="img-responsive">		
+								</div>
+								<div class="col-lg-3 col-sm-6">
+								<h4>DEVOTIONAL</h4>
+								<img src="../images/temple.jpg" alt="temple" class="img-responsive">
+								</div>
+								<div class="col-lg-3 col-sm-6">
+								<h4>PARTY TOWN</h4>
+								<img src="../images/party.jpg" alt="party" class="img-responsive">
+								</div>
+							</div>	
+					</div>
+					<!--tab2-->
+					<div class="tab-pane container" id="table2">
+						<div class="row">
+							<div class="col-lg-6">
+							<iframe src="https://r1---sn-cvh76n7k.googlevideo.com/videoplayback?clen=26051248&id=o-AAflvO_ijtVtn0eQCmnE1FJoZoHSl0WeWrfZkU0CfQfZ&ei=jolKWNeuFNGzcsvCgYgN&sparams=clen,dur,ei,expire,gir,id,initcwndbps,ip,ipbits,ipbypass,itag,lmt,mime,mm,mn,ms,mv,nh,pl,ratebypass,requiressl,source,upn&ip=115.249.29.89&signature=109A9F782067A0C6BF328555A4BBF386E484B6B4.06643964EAD459AC31E5726B5B7D4CA413F56BB0&upn=0rUCINGtEKU&mime=video/mp4&key=cms1&expire=1481301486&itag=18&lmt=1478281639438017&ipbits=0&ratebypass=yes&source=youtube&pl=22&dur=387.587&gir=yes&requiressl=yes&title=Meenakshi+Temple+Madurai+India%2C+Ancient+Hindu+Architecture+*HD*&req_id=f98ea595ba2ca3ee&redirect_counter=2&cms_redirect=yes&ipbypass=yes&mm=30&mn=sn-cvh76n7k&ms=nxu&mt=1481279832&mv=m&nh=IgpwcjAxLmJvbTA1Kg03Mi4xNC4yMTguMTQ3"></iframe>	
+							</div>
+
+							<div class="col-lg-6">
+								<iframe src="https://r6---sn-cvh76n7d.googlevideo.com/videoplayback?ipbits=0&dur=114.938&ratebypass=yes&expire=1481301136&signature=328016D362DA14412F01768009A587DB6C2CD5E5.0E4834C40FB411E086A844AD17C9B61C1B7724B2&id=o-AFvyd_udAP3WNhIGnb8GWiO3hD6Hs-Ga4z4Oyb-W0jDz&pl=22&ip=115.249.29.89&requiressl=yes&sparams=clen,dur,ei,expire,gir,id,initcwndbps,ip,ipbits,ipbypass,itag,lmt,mime,mm,mn,ms,mv,nh,pl,ratebypass,requiressl,source,upn&ei=MIhKWMXsLJGZct7NuMgM&lmt=1392558205151659&upn=y0StPBEZRvI&source=youtube&clen=9765029&itag=18&mime=video/mp4&gir=yes&key=cms1&title=The+beautiful+forest&req_id=55641e7dce0aa3ee&redirect_counter=2&cms_redirect=yes&ipbypass=yes&mm=30&mn=sn-cvh76n7d&ms=nxu&mt=1481279479&mv=m&nh=IgpwcjAxLmJvbTA1Kg03Mi4xNC4yMTguMTQ3"></iframe>
+							</div>
+						</div>		
+							 
+					</div>
+
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">SIGN IN</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="username">USER NAME</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="username" type="text">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="password">PASSWORD</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="password" type="password">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<a href="#myModal2" class="pull-left" data-toggle="modal">NEW USER? SIGN UP</a>
+						<button class="btn btn-primary" type="button">SIGN IN</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade" id="myModal2">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">REGISTER</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="username1">USER NAME</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="username1" type="text">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="email1">EMAIL-ID</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="email1" type="email">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="password1">PASSWORD</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="password1" type="password">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-4 control-label" for="pass1">RE-ENTER PASSWORD</label>
+								<div class="col-lg-8">
+									<input class="form-control" id="pass1" type="password">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-primary" type="button">REGISTER</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row container">
+			<div class="col-lg-4 col-sm-6">
+						<div class="list-group">
+							  <a href="#" class="list-group-item" id="tab1">
+							    UNESCO DECLARED WORLD HERITAGE SITES IN TAMILNADU
+							  </a>
+							  <a href="#" class="list-group-item">DARASURAM</a>
+							  <a href="#" class="list-group-item">MAMALLAPURAM</a>
+							  <a href="#" class="list-group-item">THANJAVUR BIG TEMPLE</a>
+							  <a href="#" class="list-group-item">GANGAIKONDA CHOLAPURAM</a>
+							  <a href="#" class="list-group-item">NILGIRI MOUNTAIN RAIL</a>
+						</div>
+			</div>
+			<div class="col-lg-4 col-sm-6" >
+						<div class="list-group">
+							  <a href="#" class="list-group-item" id="tab2">
+							    LATEST NEWS
+							  </a>
+							  <a href="#" class="list-group-item">FOREIGN EXCHANGE AT 0% INTREST</a>
+							  <a href="#" class="list-group-item">NEW TOURISM HOME INAUGRATED BY CM</a>
+							  <a href="#" class="list-group-item">OPEN SPACE AT ISLAND GROUNDS</a>
+							  <a href="#" class="list-group-item">KERALA TRAVEL MART-2016</a>
+							  <a href="#" class="list-group-item">MENAKSHI TEMPLE RANKS TOP 10 IN TOURISTER</a>
+						</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+					<div class="list-group">
+						  <a href="#" class="list-group-item" id="tab3">
+						    OTHER EVENTS
+						  </a>
+						  <a href="#" class="list-group-item">TAMILNADU TOURISM PARTICIPATING IN WHO HEALTH RALLY</a>
+						  <a href="#" class="list-group-item">COT's INSPECTION</a>
+						  <a href="#" class="list-group-item">MD's INSPECTION TTDC</a>
+						  <a href="#" class="list-group-item">TENDERS</a>
+						  <a href="#" class="list-group-item">OFFICIALS OF TTDC</a>
+					</div>
+			</div>
+		</div>		
+		<footer>
+			<div class="row">
+				<div class="col-lg-3">
+					<h4>Contact us</h4>
+					<p>Tamil Nadu Tourism Complex,</p>
+					<p>No 2, Wallajah Road,</p>
+					<p>Chennai</p>
+					<p>Phone:044-25333850 to 54</p>
+					<p>Fax: 044-25333385, 25333567</p>
+					<p>E-mail:ttdc@vsnl.com</p>
+					<button class="btn btn-primary"><span class="glyphicon glyphicon-thumbs-up"> FEED BACK</span></button>
+				</div>
+
+				<div class="col-lg-3">
+					<h4>Important Links</h4>
+					<p>TOURISM AND CULTURE GO'S</p>
+					<p>STATE INSTITUTE OF HOTEL MANAGEMENT &copy; CATERING TECHNOLOGY,TIRUCHIRAPPALLI</p>
+					<p>INSTITUTE OF HOTEL MANAGEMENT CATERING TECHNOLOGY &copy; APPLIED NUTRITION, CHENNAI</p>
+				</div>
+
+				<div class="col-lg-3">
+					<h4>Tourism Policies</h4>
+					<p>RIGHT TO INFORMATION ACT </p>
+					<p>TRADE MARK COPYRIGHT</p>
+					<p>POLICY NOTE 2016-2017 - ENGLISH</p>
+					<p>POLICY NOTE 2016-2017 - TAMIL</p>
+					<button class="btn btn-danger">TTDC OFFICIALS LOGIN</button>
+				</div>
+
+				<div class="col-lg-3" id="awe">
+					<h4>Follow us at </h4>
+					<p><a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></p>
+					<p><a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></p>
+					<p><a href="#"><i class="fa fa-whatsapp fa-3x" aria-hidden="true"></i></a></p>
+					<p><a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></p>
+				</div>
+			</div>
+			<p>copyright &copy;. All rights reserved.Developed by Yogeendran.</p>
+		</footer>
+
+		
+	</div>	<!--End of main container-->
+
+</body>
+</html>

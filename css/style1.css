@@ -1,0 +1,278 @@
+.navbar h2 {
+	font-family: cursive;
+	color: blueviolet;
+	text-align: left;
+	font-size: 50px;
+}
+#topicon{
+	margin-top: -100px;
+	padding-right: 40PX;
+}
+#sale{
+	background: black;
+}
+#sale a{
+	color: skyblue;
+	padding-right: 17px;
+}
+
+#sale a:hover{
+	color: black;
+	background: skyblue;
+}
+#button{
+	margin-top: -40px;
+	border: none;
+	color: blue;
+}
+
+.dropdown-menu{
+	background: black;
+}
+#myCarousel{
+	margin-top: -21px;
+}
+#myCarousel .item{
+	height: 500px;
+}
+#slide1{
+	background: url('../images/courtallam.jpg') top center no-repeat;
+}
+
+#slide2{
+	background: url('../images/bigtemple.jpg') top center no-repeat;
+}
+
+#slide3{
+	background: url('../images/goldentemple.jpg') top center no-repeat;
+}
+
+#slide4{
+	background: url('../images/kodaikanal.jpg') top center no-repeat;
+}
+#slide5{
+	background: url('../images/hogenakkal.jpg') top center no-repeat;
+}
+#slide6{
+	background: url('../images/mangroove.jpg') top center no-repeat;
+}
+#slide7{
+	background: url('../images/marina.jpg') top center no-repeat;
+}
+#slide8{
+	background: url('../images/dara.jpg') top center no-repeat;
+}
+#slide9{
+	background: url('../images/gangaikonda.jpg') top center no-repeat;
+}
+
+@media screen and (max-width: 768px) and (min-width: 420px) {
+	#myCarousel .item{
+		height: 274px;
+	}
+	#slide1{
+		background: url('../images/courtallam-s.jpg') top center no-repeat;
+	}
+
+	#slide2{
+		background: url('../images/bigtemple-s.jpg') top center no-repeat;
+	}
+
+	#slide3{
+		background: url('../images/goldentemple-s.jpg') top center no-repeat;
+	}
+
+	#slide4{
+		background: url('../images/kodaikanal-s.jpg') top center no-repeat;
+	}
+	#slide5{
+		background: url('../images/hogenakkal-s.jpg') top center no-repeat;
+	}
+	#slide6{
+		background: url('../images/mangroove-s.jpg') top center no-repeat;
+	}
+	#slide7{
+		background: url('../images/marina-s.jpg') top center no-repeat;
+	}
+	#slide8{
+		background: url('../images/dara-s.jpg') top center no-repeat;
+	}
+	#slide9{
+		background: url('../images/gangaikonda-s.jpg') top center no-repeat;
+	}
+	.navbar h2 {
+		font-family: cursive;
+		color: blueviolet;
+		text-align: left;
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 420px) and (min-width: 10px) {
+	#myCarousel .item{
+		height: 128px;
+	}
+	#slide1{
+		background: url('../images/courtallam-sm.jpg') top center no-repeat;
+	}
+
+	#slide2{
+		background: url('../images/bigtemple-sm.jpg') top center no-repeat;
+	}
+
+	#slide3{
+		background: url('../images/goldentemple-sm.jpg') top center no-repeat;
+	}
+
+	#slide4{
+		background: url('../images/kodaikanal-sm.jpg') top center no-repeat;
+	}
+	#slide5{
+		background: url('../images/hogenakkal-sm.jpg') top center no-repeat;
+	}
+	#slide6{
+		background: url('../images/mangroove-sm.jpg') top center no-repeat;
+	}
+	#slide7{
+		background: url('../images/marina-sm.jpg') top center no-repeat;
+	}
+	#slide8{
+		background: url('../images/dara-sm.jpg') top center no-repeat;
+	}
+	#slide9{
+		background: url('../images/gangaikonda-sm.jpg') top center no-repeat;
+	}
+	.navbar h2 {
+		font-family: cursive;
+		color: blueviolet;
+		text-align: left;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+	#myCarousel .item{
+		height: 356px;
+	}
+	#slide1{
+		background: url('../images/courtallam-m.jpg') top center no-repeat;
+	}
+
+	#slide2{
+		background: url('../images/bigtemple-m.jpg') top center no-repeat;
+	}
+
+	#slide3{
+		background: url('../images/goldentemple-m.jpg') top center no-repeat;
+	}
+
+	#slide4{
+		background: url('../images/kodaikanal-m.jpg') top center no-repeat;
+	}
+	#slide5{
+		background: url('../images/hogenakkal-m.jpg') top center no-repeat;
+	}
+	#slide6{
+		background: url('../images/mangroove-m.jpg') top center no-repeat;
+	}
+	#slide7{
+		background: url('../images/marina-m.jpg') top center no-repeat;
+	}
+	#slide8{
+		background: url('../images/dara-m.jpg') top center no-repeat;
+	}
+	#slide9{
+		background: url('../images/gangaikonda-m.jpg') top center no-repeat;
+	}
+	.navbar h2 {
+		font-family: cursive;
+		color: blueviolet;
+		text-align: left;
+		font-size: 40px;
+	}
+}
+
+
+.row img{
+	width: 100%;
+	height: 150px;
+}
+.row h4{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.container{
+	margin: auto;
+}
+
+#moreinfo h3{
+	font-family: cursive;
+}
+.modal-header{
+	background-color: orange;
+}
+.sign{
+	border: none;
+}
+
+#tab1,#tab2,#tab3{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+#tab1{
+	background-color: red;
+}
+#tab2{
+	background-color: blue;
+}
+#tab3{
+	background-color: orange;
+}
+
+
+#awe p{
+	text-align: left;
+}
+
+footer .row .col-lg-3 h4{
+	text-align: left;
+	text-decoration: underline;
+}
+
+footer h4,p{
+	color: skyblue;
+}
+footer {
+	background: black;
+	padding-bottom: 10px;
+}
+iframe{
+	height: 400px;
+	width: 500px;
+}
+
+#fill button{
+	margin-bottom: 10px;
+}
+
+#fill label{
+	font-weight: bolder;
+	color: black;
+}
+
+#show{
+	margin-top: -21px;
+	background: url('../images/back.jpeg');
+}
+
+.list-group a{
+	background: transparent;
+	color: black;
+	font-weight: bolder;
+}
+
+#lastthing button{
+	align-items: center;
+}
